@@ -34,7 +34,7 @@ Code Release to accompany paper: [![DOI](xx)
 
 
   ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications.
-      GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
+GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 
   ### Orthology analysis (NCBI, Ensembl and MGI)
   | Files | Name   |
@@ -69,7 +69,7 @@ Code Release to accompany paper: [![DOI](xx)
 
   ### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification;
       Yawei Liu, Xiaoying Fan, Rui Wang, Xiaoyin Lu, Yan-Li Dang, Huiying Wang, Hai-Yan Lin, Cheng Zhu, Hao Ge, James C. Cross & Hongmei Wang [[DOI](https://doi.org/10.1038/s41422-018-0066-y)]
-      
+
 | Files | Name   |
 | ----------------------------- | --- |
 |Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] |
