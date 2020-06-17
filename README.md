@@ -1,6 +1,6 @@
 # 2020-Napso_Sferruzi-Perri
 
-The secretome map analysis of placenta.
+Analyse the placental peptidome and secretome with mass spectrometry(MS) to improve understanding of the placental endocrinology and its significance in determining pregnancy outcome. 
 
 
 Code Release to accompany paper: [![DOI](xx)
