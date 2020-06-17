@@ -14,7 +14,7 @@ Code Release to accompany paper: [![DOI](xx)
    |Excel?| Sorted_Trophblast_Cells_Data.xlsx| [[XLSX](Original_Data/Sorted_Trophblast_Cells_Data.xlsx)]|
 
 ## Step 2: Secretome analysis
-  ### Extract Mouse Proteins, corresponding gene name and UniProtKB ID; </bt>
+  ### Extract Mouse Proteins, corresponding gene name and UniProtKB ID;
   | Files | Name   |
   | ----------------------------- | --- |
   |Cultured_Trophoblast_N1534_G1531_Gnas_Naca_Gpx4_Filtered_pep2_Step1_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1534_G1531_Gnas_Naca_Gpx4_Filtered_pep2_Step1_Data.csv)] |
@@ -22,16 +22,18 @@ Code Release to accompany paper: [![DOI](xx)
   |Sorted_cell_Trophoblast_N1142_Step1_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N1142_Step1_Data.csv)]|
 
   ### QC control:  </bt>
-      [1] number of unique peptides >= 2 + -10log(10)P > 12.7  (padj < 0.05); </bt>
-      [2] minimum samples choosen ( 2 out 3 or 4 out of 5); </bt>
-      | Files | Name   |
-      | ----------------------------- | --- |
-      |Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv)] |
-      |Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv)] |
-      |Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv|  [[CSV](Figures_Tables/Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv)]|
+      [1] number of unique peptides >= 2 + -10log(10)P > 12.7  (padj < 0.05);
+      [2] minimum samples choosen ( 2 out 3 or 4 out of 5);
 
 
-  ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications. </bt>
+| Files | Name   |
+| ----------------------------- | --- |
+|Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv)] |
+|Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv)] |
+|Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv|  [[CSV](Figures_Tables/Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv)]|
+
+
+  ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications.
       GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 
   ### Orthology analysis (NCBI, Ensembl and MGI)
@@ -53,23 +55,25 @@ Code Release to accompany paper: [![DOI](xx)
   |Sorted_cell_Trophoblast_N634_G633_Naca_Filtered_Step3_HumPub_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N634_G633_Naca_Filtered_Step3_HumPub_Data.csv)]|
   |Sorted_cell_Trophoblast_N8_G8_Filtered_Step4_MusUni_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N8_G8_Filtered_Step4_MusUni_Data.csv)]|
 
-  ### Secreted Identification for common proteins between Mouse and Human and Mouse Unique ones, </bt>
-      [1] SignalP (version 4.1)[[Link](http://www.cbs.dtu.dk/services/SignalP-4.1/)]; </bt>
-      [2] UniProt.ws (version 2.26.0) package in R (version 3.6.2), GO pathway with "extracellular"; </bt>
-      [3] leftover manually checking; </bt>
-      | Files | Name   |
-      | ----------------------------- | --- |
-      |Cultured_Trophoblast_secretedList_SignalP_GO_Tina_N177_G177.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_secretedList_SignalP_GO_Tina_N177_G177.csv)] |
-      |Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv)] |
-      |Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv | [[CSV](Figures_Tables/Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv)] |
-      |Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv|  [[CSV](Figures_Tables/Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv)]|  
+  ### Secreted Identification for common proteins between Mouse and Human and Mouse Unique ones,
+      [1] SignalP (version 4.1)[[Link](http://www.cbs.dtu.dk/services/SignalP-4.1/)];
+      [2] UniProt.ws (version 2.26.0) package in R (version 3.6.2), GO pathway with "extracellular";
+      [3] leftover manually checking;
+
+| Files | Name   |
+| ----------------------------- | --- |
+|Cultured_Trophoblast_secretedList_SignalP_GO_Tina_N177_G177.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_secretedList_SignalP_GO_Tina_N177_G177.csv)] |
+|Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv)] |
+|Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv | [[CSV](Figures_Tables/Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv)] |
+|Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv|  [[CSV](Figures_Tables/Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv)]|  
 
   ### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification;
       Yawei Liu, Xiaoying Fan, Rui Wang, Xiaoyin Lu, Yan-Li Dang, Huiying Wang, Hai-Yan Lin, Cheng Zhu, Hao Ge, James C. Cross & Hongmei Wang [[DOI](https://doi.org/10.1038/s41422-018-0066-y)]
-      | Files | Name   |
-      | ----------------------------- | --- |
-      |Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] |
-      |Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] |
+      
+| Files | Name   |
+| ----------------------------- | --- |
+|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] |
+|Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] |
 
 
 
