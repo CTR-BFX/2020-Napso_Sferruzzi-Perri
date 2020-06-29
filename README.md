@@ -2,7 +2,7 @@
 
 Analyse the placental peptidome and secretome with mass spectrometry(MS) to improve understanding of the placental endocrinology and its significance in determining pregnancy outcome.
 
-Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,3</sup> , Kay RG<sup>2</sup>, Gribble F<sup>2</sup>, Reimann F<sup>2</sup>, Meek C<sup>2</sup>, Hamilton RS<sup>1</sup>, Sferruzzi-Perri AN<sup>1*</sup>.
+Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,3</sup> , Kay RG<sup>2</sup>, Gribble F<sup>2</sup>, Reimann F<sup>2</sup>, Meek C<sup>2</sup>, Hamilton RS<sup>1</sup>, Sferruzzi-Perri AN<sup>1*</sup>. <br>
 <sup>1</sup> Centre for Trophoblast Research, Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge, UK. <br>
 <sup>2</sup> Wellcome-MRC Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK.<br>
 <sup>3</sup> 3Metabolic Research Laboratories, MRC Metabolic Diseases Unit, Department of Obstetrics and Gynaecology, The Rosie Hospital, Cambridge, UK.<br>
