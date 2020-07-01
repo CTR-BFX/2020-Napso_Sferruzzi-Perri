@@ -3,12 +3,13 @@
 Analyse the placental peptidome and secretome with mass spectrometry(MS) to improve understanding of the placental endocrinology and its significance in determining pregnancy outcome.
 
 Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,3</sup> , Kay RG<sup>2</sup>, Gribble F<sup>2</sup>, Reimann F<sup>2</sup>, Meek C<sup>2</sup>, Hamilton RS<sup>1</sup>, Sferruzzi-Perri AN<sup>1*</sup>. <br>
+
 <sup>1</sup> Centre for Trophoblast Research, Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge, UK. <br>
 <sup>2</sup> Wellcome-MRC Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK.<br>
 <sup>3</sup> 3Metabolic Research Laboratories, MRC Metabolic Diseases Unit, Department of Obstetrics and Gynaecology, The Rosie Hospital, Cambridge, UK.<br>
 <sup>1*</sup> corresponding author: ans48@cam.ac.uk<br>
 
-Code Release to accompany paper: [![DOI](xx)
+Code Release to accompany paper: [![DOI](xx)]
 
 
 ## Step 1: Get the secretome Mass Spectrum (MS) datasets.
@@ -16,7 +17,7 @@ Code Release to accompany paper: [![DOI](xx)
    | --------- | ----------------------------- | --- |
    |PEAKS|Cultured_Primary_Trophoblast_Data.csv |[[CSV](Original_Data/Cultured_Primary_Trophoblast_Data.csv)]|
    |Scaffold |Conditional_Medium_Data.csv |[[CSV](Original_Data/Conditional_Medium_Data.csv)]|
-   |Excel?| Sorted_Trophblast_Cells_Data.xlsx| [[XLSX](Original_Data/Sorted_Trophblast_Cells_Data.xlsx)]|
+   |Scaffold/Excel| Sorted_Trophblast_Cells_Data.xlsx| [[XLSX](Original_Data/Sorted_Trophblast_Cells_Data.xlsx)]|
 
 ## Step 2: Secretome analysis
   ### Extract Mouse Proteins, corresponding gene name and UniProtKB ID;
@@ -27,25 +28,26 @@ Code Release to accompany paper: [![DOI](xx)
   |Sorted_cell_Trophoblast_N1142_Step1_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N1142_Step1_Data.csv)]|
 
   ### QC control:  </bt>
-      [1] number of unique peptides >= 2 + -10log(10)P > 12.7  (padj < 0.05);
+      [1] number of unique peptides >= 2 &  -10log(10)P > 12.7  (padj < 0.05);
       [2] minimum samples choosen ( 2 out 3 or 4 out of 5);
 
 
-| Files | Name   |
+| Files | Download   |
 | ----------------------------- | --- |
 |Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv)] |
 |Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv)] |
 |Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv|  [[CSV](Figures_Tables/Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv)]|
 
 
-  ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications.
+  ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications. (Need to replaced by Table 1 and 2 final version)
 GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 
   ### Orthology analysis (NCBI, Ensembl and MGI)
-  | Files | Name   |
-  | ----------------------------- | --- |
+  | OrthologFile | Download   | Image|
+  | ----------------------------- | --- |---|
   |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)] |
-  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]|
+  <IMG SRC="Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.png" width=300px>|
+  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| ---|
 
   ### Overlap with public data (Corresponding to Fig 1 G & Fig 2 F)</bt>
   | Files | Name   |
