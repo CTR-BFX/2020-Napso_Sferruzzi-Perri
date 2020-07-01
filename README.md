@@ -43,11 +43,10 @@ Code Release to accompany paper: [![DOI](xx)]
 GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 
   ### Orthology analysis (NCBI, Ensembl and MGI)
-  | OrthologFile | Download   | Image|
-  | ----------------------------- | --- |---|
-  |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)] |
-  <IMG SRC="Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.png" width=300px>|
-  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| ---|
+  | OrthologFile | Download   | Image| Legend |
+  | ----------------------------- | --- | --- | --- |
+  |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)] |<IMG SRC="Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.png" width=600px>| UpsetR plot showing the overlap and unique numbers of ortholog among three data source |
+  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| ---| Combined three source data for ortholog list|
 
   ### Overlap with public data (Corresponding to Fig 1 G & Fig 2 F)</bt>
   | Files | Name   |
