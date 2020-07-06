@@ -45,7 +45,7 @@ More details and corresponding files linked to the paper are given below:
 | ----------------------------- | --- |
 |Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv)] |
 |Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv)] |
-|Sorted_Trophoblast_N654_G653_Naca_Filtered_Step2_Data.csv|  [[CSV](Figures_Tables/Sorted_Trophoblast_N654_G653_Naca_Filtered_Step2_Data.csv)]|
+|Sorted_TrophoblastP_N654_G653_Naca_Filtered_Step2_correctGeNames_Data.csv|  [[CSV](Figures_Tables/Sorted_TrophoblastP_N654_G653_Naca_Filtered_Step2_correctGeNames_Data.csv)]|
 
 
 ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications. (Need to replaced by Table 1 and 2 final version)
@@ -89,12 +89,18 @@ GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 ### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification;
       Yawei Liu, Xiaoying Fan, Rui Wang, Xiaoyin Lu, Yan-Li Dang, Huiying Wang, Hai-Yan Lin, Cheng Zhu, Hao Ge, James C. Cross & Hongmei Wang [[DOI](https://doi.org/10.1038/s41422-018-0066-y)]
 
-| Files | Name   | Fig. |Images|
-| ----------------------------- | --- | ---|
-|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | Fig 3F||
-|Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] | ---|
-|FeaturePlot_scRNA_TFMarker_Liu.pdf|[[PDF](Figures_Tables/FeaturePlot_scRNA_TFMarker_Liu.pdf)] | Featureplot for TF markers in Fig 5|
-|FeaturePlot_scRNA_UniMarker_Liu.pdf|[[PDF](Figures_Tables/FeaturePlot_scRNA_UniMarker_Liu.pdf)] |Key markers enrich in scRNA STB from secreted list |
+| Files | Download   | Fig. | Images|
+| ----------------------------- | --- | ---| ---|
+|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | ---| <IMG SRC="Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.png" width=400px> |
+|Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] | Fig 3F| <IMG SRC="Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.png" width=400px>|
+|scRNA_overlap_secretedList.csv|[[CSV](Figures_Tables/scRNA_overlap_secretedList.csv)]| ---| ---|
+|TF_check.xlsx|[[XLSX](Figures_Tables/TF_check.xlsx)]|TF list check with scRNASeq|| ---|
+|TF_list1_oversc_N23.csv|[[CSV](Figures_Tables/TF_list1_oversc_N23.csv)]| TF list1 check with scRNASeq| ---|
+|TF_list2_oversc_N74_Drop3_EVX1_FOXA2_HNF1A.csv|[[CSV](Figures_Tables/TF_list2_oversc_N74_Drop3_EVX1_FOXA2_HNF1A.csv)] |TF list2 check with scRNASeq| ---|
+|TF_list3_oversc_N74_Drop2_FOXA2_HNF1A.csv|[[CSV](Figures_Tables/TF_list3_oversc_N74_Drop2_FOXA2_HNF1A.csv)] |TF list3 check with scRNASeq| ---|
+|Dimplot_scRNA_Liu.pdf|[[PDF](Figures_Tables/Dimplot_scRNA_Liu.pdf)] | UMAP plot for Liu's scRNASeq paper|<IMG SRC="Figures_Tables/Dimplot_scRNA_Liu.png" width=600px> |
+|FeaturePlot_scRNA_TFMarker_Liu.pdf|[[PDF](Figures_Tables/FeaturePlot_scRNA_TFMarker_Liu.pdf)] | Featureplot for TF markers in Fig 5|<IMG SRC="Figures_Tables/FeaturePlot_scRNA_TFMarker_Liu.png" width=400px>|
+|FeaturePlot_scRNA_UniMarker_Liu.pdf|[[PDF](Figures_Tables/FeaturePlot_scRNA_UniMarker_Liu.pdf)] |Key markers enrich in scRNA STB from secreted list | <IMG SRC="Figures_Tables/FeaturePlot_scRNA_UniMarker_Liu.png" width=400px>|
 
 
 
