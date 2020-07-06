@@ -45,30 +45,33 @@ More details and corresponding files linked to the paper are given below:
 | ----------------------------- | --- |
 |Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1208_G1206_Gnas_Naca_Filtered_Step2_Data.csv)] |
 |Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv | [[CSV](Figures_Tables/Conditional_Medium_D924_G922_Psg16_Pkm_Filtered_Step2_Data.csv)] |
-|Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv|  [[CSV](Figures_Tables/Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv)]|
+|Sorted_Trophoblast_N654_G653_Naca_Filtered_Step2_Data.csv|  [[CSV](Figures_Tables/Sorted_Trophoblast_N654_G653_Naca_Filtered_Step2_Data.csv)]|
 
 
 ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications. (Need to replaced by Table 1 and 2 final version)
 GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 
-  ### Orthology analysis (NCBI, Ensembl and MGI)
+  #### Orthology analysis (NCBI, Ensembl and MGI)
   | OrthologFile | Download   |  Legend |
   | ----------------------------- | --- | --- |
   |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)]|UpsetR plot showing the overlap and unique numbers of ortholog among three data source |
   |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| Combined three source data for ortholog list|
 
-  ### Overlap with public data (Corresponding to Fig 1G & Fig 2F)</bt>
+
+### Overlap with public data (Corresponding to Fig 1G & Fig 2F)</bt>
   | Files | Name   |
   | ----------------------------- | --- |
+  |GEO_Control_Mouse_D3_N47936_GeneName_List.csv|[[CSV](Original_Data/GEO_Control_Mouse_D3_N47936_GeneName_List.csv)] |
+  |GEO_Control_Human_D8_N36552_GeneName_List.csv|[[CSV](Original_Data/GEO_Control_Human_D8_N36552_GeneName_List.csv)] |
   |Cultured_Trophoblast_N1180_G1178_Gnas_Naca_Filtered_pep2_Step3_MousePub_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1180_G1178_Gnas_Naca_Filtered_pep2_Step3_MousePub_Data.csv)] |
-  |Cultured_Trophoblast_N1172_G1170_Gnas_Naca_Filtered_pep2_Step3_HumPub_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1172_G1170_Gnas_Naca_Filtered_pep2_Step3_HumPub_Data.csv)] |
-  |Cultured_Trophoblast_N8_G8_Filtered_pep2_Step4_MusUni_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N8_G8_Filtered_pep2_Step4_MusUni_Data.csv)] |
+  |Cultured_Trophoblast_N1170_G1168_Gnas_Naca_Filtered_pep2_Step3_HumPub_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1170_G1168_Gnas_Naca_Filtered_pep2_Step3_HumPub_Data.csv)] |
+  |Cultured_Trophoblast_N10_G10_Filtered_pep2_Step4_MusUni_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N10_G10_Filtered_pep2_Step4_MusUni_Data.csv)] |
   |Conditioned_Medium_Trophoblast_N908_G906_Psg16_Pkm_Filtered_Step3_MousePub_Data.csv|  [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_N908_G906_Psg16_Pkm_Filtered_Step3_MousePub_Data.csv)]|
-  |Conditioned_Medium_Trophoblast_N881_G879_Psg16_Pkm_Filtered_Step3_HumPub_Data.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_N881_G879_Psg16_Pkm_Filtered_Step3_HumPub_Data.csv)] |
-  |Conditioned_Medium_Trophoblast_N27_G27_Filtered_Step4_MusUni_Data.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_N27_G27_Filtered_Step4_MusUni_Data.csv)] |
-  |Sorted_cell_Trophoblast_N642_G641_Naca_Filtered_Step3_MousePub_Data.csv | [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N642_G641_Naca_Filtered_Step3_MousePub_Data.csv)] |
-  |Sorted_cell_Trophoblast_N634_G633_Naca_Filtered_Step3_HumPub_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N634_G633_Naca_Filtered_Step3_HumPub_Data.csv)]|
-  |Sorted_cell_Trophoblast_N8_G8_Filtered_Step4_MusUni_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N8_G8_Filtered_Step4_MusUni_Data.csv)]|
+  |Conditioned_Medium_Trophoblast_N876_G875_Psg16_Filtered_Step3_HumPub_Data.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_N876_G875_Psg16_Filtered_Step3_HumPub_Data.csv)] |
+  |Conditioned_Medium_Trophoblast_N33_G32_Filtered_Step4_MusUni_Data.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_N33_G32_Filtered_Step4_MusUni_Data.csv)] |
+  |Sorted_cell_Trophoblast_N621_G620_Naca_Filtered_Step3_MousePub_Data.csv | [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N621_G620_Naca_Filtered_Step3_MousePub_Data.csv)] |
+  |Sorted_cell_Trophoblast_N611_G610_Naca_Filtered_Step3_HumPub_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N611_G610_Naca_Filtered_Step3_HumPub_Data.csv)]|
+  |Sorted_cell_Trophoblast_N10_G10_Filtered_Step4_MusUni_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N10_G10_Filtered_Step4_MusUni_Data.csv)]|
 
 ### Secreted Identification for common proteins between Mouse and Human and Mouse Unique ones, (Correponding to Fig 3A)
       [1] SignalP (version 4.1)[[Link](http://www.cbs.dtu.dk/services/SignalP-4.1/)];
@@ -81,16 +84,17 @@ GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 |Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv)] |
 |Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv | [[CSV](Figures_Tables/Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv)] |
 |Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv|  [[CSV](Figures_Tables/Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv)]|
-|finallist.xlsx|[[XLSX](Figures_Tables/Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.xlsx)]|
+|Secreted_Final_List_Tina.xlsx|[[XLSX](Figures_Tables/Secreted_Final_List_Tina.xlsx)]|
 
 ### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification;
       Yawei Liu, Xiaoying Fan, Rui Wang, Xiaoyin Lu, Yan-Li Dang, Huiying Wang, Hai-Yan Lin, Cheng Zhu, Hao Ge, James C. Cross & Hongmei Wang [[DOI](https://doi.org/10.1038/s41422-018-0066-y)]
 
-| Files | Name   | Fig. |
+| Files | Name   | Fig. |Images|
 | ----------------------------- | --- | ---|
-|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | Fig 3F|
+|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | Fig 3F||
 |Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] | ---|
-|featureplot.pdf|[[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | Fig sF|
+|FeaturePlot_scRNA_TFMarker_Liu.pdf|[[PDF](Figures_Tables/FeaturePlot_scRNA_TFMarker_Liu.pdf)] | Featureplot for TF markers in Fig 5|
+|FeaturePlot_scRNA_UniMarker_Liu.pdf|[[PDF](Figures_Tables/FeaturePlot_scRNA_UniMarker_Liu.pdf)] |Key markers enrich in scRNA STB from secreted list |
 
 
 
