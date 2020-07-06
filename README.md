@@ -2,24 +2,33 @@
 
 Analyse the placental peptidome and secretome with mass spectrometry(MS) to improve understanding of the placental endocrinology and its significance in determining pregnancy outcome.
 
-Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,3</sup> , Kay RG<sup>2</sup>, Gribble F<sup>2</sup>, Reimann F<sup>2</sup>, Meek C<sup>2</sup>, Hamilton RS<sup>1</sup>, Sferruzzi-Perri AN<sup>1*</sup>. <br>
+Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,3</sup> , Kay RG<sup>2</sup>, Gribble F<sup>2</sup>, Reimann F<sup>2</sup>, Meek C<sup>2</sup>, Hamilton RS<sup>1,4</sup>, Sferruzzi-Perri AN<sup>1*</sup>. <br>
 
 <sup>1</sup> Centre for Trophoblast Research, Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge, UK. <br>
 <sup>2</sup> Wellcome-MRC Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK.<br>
-<sup>3</sup> 3Metabolic Research Laboratories, MRC Metabolic Diseases Unit, Department of Obstetrics and Gynaecology, The Rosie Hospital, Cambridge, UK.<br>
+<sup>3</sup> Metabolic Research Laboratories, MRC Metabolic Diseases Unit, Department of Obstetrics and Gynaecology, The Rosie Hospital, Cambridge, UK.<br>
+<sup>4</sup> Department of Genetics,University of Cambridge, Downing Street, Cambridge, CB2 3EH, UK.<br>
+
 <sup>1*</sup> corresponding author: ans48@cam.ac.uk<br>
 
 Code Release to accompany paper: [![DOI](xx)]
 
+## Bioinformatics analysis Methods
+Protein/peptide annotations in LC-MS datasets were converted to their gene accession ID via UniProt (https://www.uniprot.org/uploadlists/). Gene lists were then overlaid with publicly available datasets for the mouse and human placenta, which are detailed in Table 1 (3 from mouse placenta and 8 for human placenta). Mouse-human ortholog searches were also undertaken using three sources data, MGI (http://www.informatics.jax.org/) , NCBI (https://www.ncbi.nlm.nih.gov/homologene) and Ensembl (biomaRt_2.42.1  and homologene_1.4.68 in R_v3.6.2). Then using  R (version 3.6.2) generated a combined ortholog list for Mouse-Human, details of the list and Rscript is published in GitHub (https://github.com/CTR-BFX/2020-Napso_Sferruzi-Perri).  Mouse-human ortholog results were classified as one-to-one when a gene/protein from mouse was found at the end of a node in human. Any results classified as one-to-many were excluded. Gene ontology analyses were performed using both STRING and Panther tools (Ashburner et al. 2000). Gene enrichment analyses were conducted using TissueEnrich (tissue-specific gene enrichment analysis; (Jain and Tuteja 2019)), which utilises datasets available in the Human Protein Atlas compiling RNAseq datasets from 35 human tissues (Uhlen et al. 2015) and the Mouse ENCODE database comprised of RNAseq datasets of 17 mouse tissues (Shen et al. 2012). Refined gene/protein lists were overlaid with publicly available RNA and protein expression datasets for human pregnancy complications (Table 2) and aided by searches in Pubmed and the OMIM repository (http://www.ncbi.nlm.nih.gov). All data outputs at each step of the pipeline, including the proteins/genes expressed in the mouse but not the human placenta can be found in GitHub (https://github.com/CTR-BFX/2020-Napso_Sferruzi-Perri).  
+<bf>{However, please note that due to slight changes / updates in ENSEMBL numbers, there may be some variability in the final number of genes identified following conversion from protein.}
 
-## Step 1: Get the secretome Mass Spectrum (MS) datasets.
+To further refine our lists to secreted proteins, we applied SignalP (Signal Peptide Prediction, version 4.1, Nielsen et al. 2019)  and gene ontology analysis using four different gene ontology (GO) terms: extracellular region (GO: 0005615), extracellular exosome (GO: 0070062), extracellular region parts (GO: 0005615) and signal IP (excluding signals detected for ER lumen proteins). This combination analysis is because SignalP can only detect the signal peptide for proteins secreted via the canonical route, which is normally called as "classic" or "conventional" secretion pathway. In addition, eukaryotic cells also utilize unconventional protein secretion (UPS) for protein sorting and delivery, which we called "unconventional" secretion pathway, eg.leaderless proteins, into the extracellular medium. (Kim et al, 2018) Thus, we apply both "conventional" and "unconventional" seceretion pathways analysis to identify our secreted proteins' list. This resulted in a refined list of 158 and 257 secreted proteins detected in the cultured cells and conditioned medium (110 were common between the sample types), respectively that are expressed by both the mouse and human placenta.
+
+More details and corresponding files linked to the paper are given below:
+
+### Step 1: Get the secretome Mass Spectrum (MS) datasets.
    | | Files | Name   |
    | --------- | ----------------------------- | --- |
    |PEAKS|Cultured_Primary_Trophoblast_Data.csv |[[CSV](Original_Data/Cultured_Primary_Trophoblast_Data.csv)]|
    |Scaffold |Conditional_Medium_Data.csv |[[CSV](Original_Data/Conditional_Medium_Data.csv)]|
    |Scaffold/Excel| Sorted_Trophblast_Cells_Data.xlsx| [[XLSX](Original_Data/Sorted_Trophblast_Cells_Data.xlsx)]|
 
-## Step 2: Secretome analysis
+### Step 2: Secretome analysis
   ### Extract Mouse Proteins, corresponding gene name and UniProtKB ID;
   | Files | Name   |
   | ----------------------------- | --- |
@@ -39,16 +48,16 @@ Code Release to accompany paper: [![DOI](xx)]
 |Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv|  [[CSV](Figures_Tables/Sorted_Trophoblast_N682_G681_Naca_Filtered_Step2_Data.csv)]|
 
 
-  ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications. (Need to replaced by Table 1 and 2 final version)
+### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications. (Need to replaced by Table 1 and 2 final version)
 GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 
   ### Orthology analysis (NCBI, Ensembl and MGI)
-  | OrthologFile | Download   | Image| Legend |
-  | ----------------------------- | --- | --- | --- |
-  |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)] |<IMG SRC="Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.png" width=600px>| UpsetR plot showing the overlap and unique numbers of ortholog among three data source |
-  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| ---| Combined three source data for ortholog list|
+  | OrthologFile | Download   |  Legend |
+  | ----------------------------- | --- | --- |
+  |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)]|UpsetR plot showing the overlap and unique numbers of ortholog among three data source |
+  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| Combined three source data for ortholog list|
 
-  ### Overlap with public data (Corresponding to Fig 1 G & Fig 2 F)</bt>
+  ### Overlap with public data (Corresponding to Fig 1G & Fig 2F)</bt>
   | Files | Name   |
   | ----------------------------- | --- |
   |Cultured_Trophoblast_N1180_G1178_Gnas_Naca_Filtered_pep2_Step3_MousePub_Data.csv | [[CSV](Figures_Tables/Cultured_Trophoblast_N1180_G1178_Gnas_Naca_Filtered_pep2_Step3_MousePub_Data.csv)] |
@@ -61,7 +70,7 @@ GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
   |Sorted_cell_Trophoblast_N634_G633_Naca_Filtered_Step3_HumPub_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N634_G633_Naca_Filtered_Step3_HumPub_Data.csv)]|
   |Sorted_cell_Trophoblast_N8_G8_Filtered_Step4_MusUni_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N8_G8_Filtered_Step4_MusUni_Data.csv)]|
 
-  ### Secreted Identification for common proteins between Mouse and Human and Mouse Unique ones, (Correponding to Fig 3 A)
+### Secreted Identification for common proteins between Mouse and Human and Mouse Unique ones, (Correponding to Fig 3A)
       [1] SignalP (version 4.1)[[Link](http://www.cbs.dtu.dk/services/SignalP-4.1/)];
       [2] UniProt.ws (version 2.26.0) package in R (version 3.6.2), GO pathway with "extracellular";
       [3] leftover manually checking;
@@ -72,15 +81,17 @@ GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 |Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv | [[CSV](Figures_Tables/Conditioned_Medium_Trophoblast_secretedList_SignalP_GO_Tina_N270_G269_Pkm.csv)] |
 |Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv | [[CSV](Figures_Tables/Sorted_cell_Trophoblast_secretedList_SignalP_GO_Tina_N102_G102.csv)] |
 |Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv|  [[CSV](Figures_Tables/Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv)]|
+|finallist.xlsx|[[XLSX](Figures_Tables/Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.xlsx)]|
 
-
-  ### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification;
+### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification;
       Yawei Liu, Xiaoying Fan, Rui Wang, Xiaoyin Lu, Yan-Li Dang, Huiying Wang, Hai-Yan Lin, Cheng Zhu, Hao Ge, James C. Cross & Hongmei Wang [[DOI](https://doi.org/10.1038/s41422-018-0066-y)]
 
 | Files | Name   | Fig. |
 | ----------------------------- | --- | ---|
-|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | Fig 3 F|
+|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | Fig 3F|
 |Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] | ---|
+|featureplot.pdf|[[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | Fig sF|
+
 
 
 
