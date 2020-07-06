@@ -26,7 +26,7 @@ More details and corresponding files linked to the paper are given below:
    | --------- | ----------------------------- | --- |
    |PEAKS|Cultured_Primary_Trophoblast_Data.csv |[[CSV](Original_Data/Cultured_Primary_Trophoblast_Data.csv)]|
    |Scaffold |Conditional_Medium_Data.csv |[[CSV](Original_Data/Conditional_Medium_Data.csv)]|
-   |Scaffold| Sorted_Trophblast_Cells_Data.csv| [[CSV(Original_Data/Sorted_Trophblast_Cells_Data.csv)]|
+   |Scaffold| Sorted_Trophblast_Cells_Data.csv| [[CSV](Original_Data/Sorted_Trophblast_Cells_Data.csv)]|
 
 ### Step 2: Secretome analysis
   ### Extract Mouse Proteins, corresponding gene name and UniProtKB ID;
