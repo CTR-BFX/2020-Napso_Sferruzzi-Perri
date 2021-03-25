@@ -1,12 +1,12 @@
 # Placental secretome map identifies potential diagnostic and treatment targets for pregnancy complications
 
-Analyse the placental peptidome and secretome with mass spectrometry(MS) to improve understanding of the placental endocrinology and its significance in determining pregnancy outcome.
+Unbiased placental secretome characterization identifies candidates for pregnancy complications
 
-Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,3</sup> , Kay RG<sup>2</sup>, Gribble F<sup>2</sup>, Reimann F<sup>2</sup>, Meek C<sup>2</sup>, Hamilton RS<sup>1,4</sup>, Sferruzzi-Perri AN<sup>1*</sup>. <br>
+Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,2</sup> , Kay RG<sup>3</sup>, George Amy<sup>3</sup>, Gribble F<sup>3</sup>, Reimann F<sup>3</sup>, Meek C<sup>3</sup>, Hamilton RS<sup>1,4</sup>, Sferruzzi-Perri AN<sup>1*</sup>. <br>
 
 <sup>1</sup> Centre for Trophoblast Research, Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge, UK. <br>
-<sup>2</sup> Wellcome-MRC Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK.<br>
-<sup>3</sup> Metabolic Research Laboratories, MRC Metabolic Diseases Unit, Department of Obstetrics and Gynaecology, The Rosie Hospital, Cambridge, UK.<br>
+<sup>2</sup> Metabolic Research Laboratories, MRC Metabolic Diseases Unit, Department of Obstetrics and 9 Gynaecology, The Rosie Hospital, Cambridge, UK.<br>
+<sup>3</sup> Wellcome-MRC Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK.<br>
 <sup>4</sup> Department of Genetics,University of Cambridge, Downing Street, Cambridge, CB2 3EH, UK.<br>
 
 <sup>1*</sup> corresponding author: ans48@cam.ac.uk<br>
@@ -50,7 +50,7 @@ More details and corresponding files linked to the paper are given below:
 
 
 ### Literature review and Data preparation for placenta Data (Mouse and Human), includes Control and other pregnancy complications. (Need to replaced by Table 1 and 2 final version)
-GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
+Table_S1_S7.docx (*Table_S1_S7*)[[DOCX](Figures_Tables/Table_S1_S7.docx)]
 
   #### Orthology analysis (NCBI, Ensembl and MGI)
   | OrthologFile | Download   |  Legend |
@@ -59,7 +59,7 @@ GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
   |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| Combined three source data for ortholog list|
 
 
-### Overlap with public data (Corresponding to Fig 1G & Fig 2F)</bt>
+### Overlap with public data (Corresponding to *Fig 1G* & *Fig 2F* & *Fig 4A*)</bt>
   | Files | Name   |
   | ----------------------------- | --- |
   |GEO_Control_Mouse_D3_N47936_GeneName_List.csv|[[CSV](Original_Data/GEO_Control_Mouse_D3_N47936_GeneName_List.csv)] |
@@ -74,7 +74,7 @@ GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
   |Sorted_cell_Trophoblast_N611_G610_Naca_Filtered_Step3_HumPub_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N611_G610_Naca_Filtered_Step3_HumPub_Data.csv)]|
   |Sorted_cell_Trophoblast_N10_G10_Filtered_Step4_MusUni_Data.csv|  [[CSV](Figures_Tables/Sorted_cell_Trophoblast_N10_G10_Filtered_Step4_MusUni_Data.csv)]|
 
-### Secreted Identification for common proteins between Mouse and Human and Mouse Unique ones, (Correponding to Fig 3A)
+### Secreted Identification for common proteins between Mouse and Human and Mouse Unique ones, (Correponding to *Fig 3A*)
       [1] SignalP (version 4.1)[[Link](http://www.cbs.dtu.dk/services/SignalP-4.1/)];
       [2] UniProt.ws (version 2.26.0) package in R (version 3.6.2), GO pathway with "extracellular";
       [3] leftover manually checking;
@@ -87,14 +87,14 @@ GEO_DataSet_Summary.pdf [[PDF](Figures_Tables/GEO_DataSet_Summary.pdf)]
 |Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv|  [[CSV](Figures_Tables/Cultured_ConditionM_SortedC_Trophoblast_secretedList_N360_G333.csv)]|
 |Secreted_Final_List_Tina.xlsx|[[XLSX](Figures_Tables/Secreted_Final_List_Tina.xlsx)]|
 
-### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification;
-      Yawei Liu, Xiaoying Fan, Rui Wang, Xiaoyin Lu, Yan-Li Dang, Huiying Wang, Hai-Yan Lin, Cheng Zhu, Hao Ge, James C. Cross & Hongmei Wang [[DOI](https://doi.org/10.1038/s41422-018-0066-y)]
+### Secreted proteins/genes overlap with singleCell RNASeq data for cell type identification (*Fig 3E*);
+
+**Yawei Liu, Xiaoying Fan, Rui Wang, Xiaoyin Lu, Yan-Li Dang, Huiying Wang, Hai-Yan Lin, Cheng Zhu, Hao Ge, James C. Cross & Hongmei Wang [[DOI](https://doi.org/10.1038/s41422-018-0066-y)]**
 
 
 | Files | Download   | Fig. | Images  |
 | ----------------------------- | --- | ---| ---|
-|Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf | [[PDF](Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.pdf)] | ---| <IMG SRC="Figures_Tables/Secreted_N325_Psg22Drop_SelN301_scRNA_Heatmap_June_2020_addEVT24.png" width=400px> |
-|Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] | Fig 3F| <IMG SRC="Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.png" width=400px>|
+|Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] | Fig 3E| <IMG SRC="Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.png" width=400px>|
 |scRNA_overlap_secretedList.csv|[[CSV](Figures_Tables/scRNA_overlap_secretedList.csv)]| ---| ---|
 |TF_check.xlsx|[[XLSX](Figures_Tables/TF_check.xlsx)]|TF list check with scRNASeq|| ---|
 |TF_list1_oversc_N23.csv|[[CSV](Figures_Tables/TF_list1_oversc_N23.csv)]| TF list1 check with scRNASeq| ---|
