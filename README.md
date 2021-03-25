@@ -53,10 +53,11 @@ More details and corresponding files linked to the paper are given below:
 Table_S1_S7.docx (*Table_S1_S7*)[[DOCX](Figures_Tables/Table_S1_S7.docx)]
 
   #### Orthology analysis (NCBI, Ensembl and MGI)
-  | OrthologFile | Download   |  Legend |
-  | ----------------------------- | --- | --- |
-  |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)]|UpsetR plot showing the overlap and unique numbers of ortholog among three data source |
-  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| Combined three source data for ortholog list|
+  | OrthologFile | Download   |  Legend | Images |
+  | ----------------------------- | --- | --- |---|
+  |CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf | [[PDF](Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.pdf)]|UpsetR plot showing the overlap and unique numbers of ortholog among three data source |<IMG SRC="Figures_Tables/CTR_ans48_0003-Ensembl_MGI_NCBI_human_mouse_upsetR_plot_april_2020.png" width=400px>|
+  |CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv|  [[CSV](Original_Data/CTR_ans48_0003-Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv)]| Combined three source data for ortholog list| |
+
 
 
 ### Overlap with public data (Corresponding to *Fig 1G* & *Fig 2F* & *Fig 4A*)</bt>
