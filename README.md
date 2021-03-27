@@ -96,6 +96,7 @@ Table_S1_S7.docx (*Table_S1_S7*)[[DOCX](Figures_Tables/Table_S1_S7.docx)]
 | Files | Download   | Fig. | Images  |
 | ----------------------------- | --- | ---| ---|
 |Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf | [[PDF](Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.pdf)] | Fig 3E| <IMG SRC="Figures_Tables/Secreted_Protien_N325_Psg22Drop_SelN301_scRNA_Heatmap_N301_selGenes38_8w_STB1_CTB1_EVT1_EVT21_June_2020_new.png" width=400px>|
+|Fig3E.pdf| [[PDF](Figures_Tables/Fig3E.pdf)] | Fig 3E| <IMG SRC="Figures_Tables/Fig3E.tiff" width=400px>|
 |scRNA_overlap_secretedList.csv|[[CSV](Figures_Tables/scRNA_overlap_secretedList.csv)]| ---| ---|
 |TF_check.xlsx|[[XLSX](Figures_Tables/TF_check.xlsx)]|TF list check with scRNASeq|| ---|
 |TF_list1_oversc_N23.csv|[[CSV](Figures_Tables/TF_list1_oversc_N23.csv)]| TF list1 check with scRNASeq| ---|
