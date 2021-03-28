@@ -30,7 +30,7 @@ To further refine our lists to secreted proteins, we applied SignalP (Signal Pep
 
 More details and corresponding files linked to the paper are given below:
 
-### Step 1: Get the secretome Mass Spectrum (MS) datasets.
+### Step 1: Get the secretome Mass Spectrum (MS) datasets.(original data accesion number in PRIDE: PXD025006, 10.6019/PXD025006)
    | | Files | Name   |
    | --------- | ----------------------------- | --- |
    |PEAKS|Cultured_Primary_Trophoblast_Data.csv |[[CSV](Original_Data/Cultured_Primary_Trophoblast_Data.csv)]|
