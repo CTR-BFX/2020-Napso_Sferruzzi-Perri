@@ -11,7 +11,7 @@ Tina Napso <sup>1</sup>, Xiaohui Zhao<sup>1</sup>, Marta Ibañez Lligoña<sup>1<
 
 <sup>1*</sup> corresponding author: ans48@cam.ac.uk<br>
 
-Code Release to accompany paper: [![DOI](xx)]
+Code Release to accompany paper: [![DOI](https://zenodo.org/badge/249443099.svg)](https://zenodo.org/badge/latestdoi/249443099))]
 
 ## Customised R Code available (R version 3.6.2)
 | Description| Files | Name   |
