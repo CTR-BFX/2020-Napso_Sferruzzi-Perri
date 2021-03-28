@@ -2,7 +2,7 @@
 
 Unbiased placental secretome characterization identifies candidates for pregnancy complications
 
-Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovici I<sup>1,2</sup> , Kay RG<sup>3</sup>, George Amy<sup>3</sup>, Gribble F<sup>3</sup>, Reimann F<sup>3</sup>, Meek C<sup>3</sup>, Hamilton RS<sup>1,4</sup>, Sferruzzi-Perri AN<sup>1*</sup>. <br>
+Tina Napso <sup>1</sup>, Xiaohui Zhao<sup>1</sup>, Marta Ibañez Lligoña<sup>1</sup>, Ionel Sandovici <sup>1,2</sup> , Richard G. Kay <sup>3</sup>, Amy L. George<sup>3</sup>, Fiona M. Gribble <sup>3</sup>, Frank Reimann<sup>3</sup>, Claire L. Meek <sup>3</sup>, Russell S. Hamilton<sup>1,4</sup>, Amanda N. Sferruzzi-Perri <sup>1*</sup>. <br>
 
 <sup>1</sup> Centre for Trophoblast Research, Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge, UK. <br>
 <sup>2</sup> Metabolic Research Laboratories, MRC Metabolic Diseases Unit, Department of Obstetrics and 9 Gynaecology, The Rosie Hospital, Cambridge, UK.<br>
@@ -12,6 +12,14 @@ Napso T<sup>1</sup>, Zhao X<sup>1</sup>, Ibañez Lligoña M<sup>1</sup>, Sandovi
 <sup>1*</sup> corresponding author: ans48@cam.ac.uk<br>
 
 Code Release to accompany paper: [![DOI](xx)]
+
+## Customised R Code available (R version 3.6.2)
+| Description| Files | Name   |
+| --------- | ----------------------------- | --- |
+|Mouse/Human Public RNASeq data sort and extract code|GEO_Control_Public_DataSort.R |[[R](Scripts/GEO_Control_Public_DataSort.R )]|
+|Orthology Mouse/Human Analysis |Mouse_Human_Homolog_Ensembl_MGI_NCBI.R  |[[R](Scripts/Mouse_Human_Homolog_Ensembl_MGI_NCBI.R )]|
+|secretome data Main analysis| Protenomic_Analysis_Pipeline.R| [[R](Scripts/Protenomic_Analysis_Pipeline.R)]|
+
 
 ## Bioinformatics analysis Methods
 Protein/peptide annotations in LC-MS datasets were converted to their gene accession ID via UniProt (https://www.uniprot.org/uploadlists/). Gene lists were then overlaid with publicly available datasets for the mouse and human placenta, which are detailed in Table 1 (3 from mouse placenta and 8 for human placenta). Mouse-human ortholog searches were also undertaken using three sources data, MGI (http://www.informatics.jax.org/) , NCBI (https://www.ncbi.nlm.nih.gov/homologene) and Ensembl (biomaRt_2.42.1  and homologene_1.4.68 in R_v3.6.2). Then using  R (version 3.6.2) generated a combined ortholog list for Mouse-Human, details of the list and Rscript is published in GitHub (https://github.com/CTR-BFX/2020-Napso_Sferruzi-Perri).  Mouse-human ortholog results were classified as one-to-one when a gene/protein from mouse was found at the end of a node in human. Any results classified as one-to-many were excluded. Gene ontology analyses were performed using both STRING and Panther tools (Ashburner et al. 2000). Gene enrichment analyses were conducted using TissueEnrich (tissue-specific gene enrichment analysis; (Jain and Tuteja 2019)), which utilises datasets available in the Human Protein Atlas compiling RNAseq datasets from 35 human tissues (Uhlen et al. 2015) and the Mouse ENCODE database comprised of RNAseq datasets of 17 mouse tissues (Shen et al. 2012). Refined gene/protein lists were overlaid with publicly available RNA and protein expression datasets for human pregnancy complications (Table 2) and aided by searches in Pubmed and the OMIM repository (http://www.ncbi.nlm.nih.gov). All data outputs at each step of the pipeline, including the proteins/genes expressed in the mouse but not the human placenta can be found in GitHub (https://github.com/CTR-BFX/2020-Napso_Sferruzi-Perri).  
