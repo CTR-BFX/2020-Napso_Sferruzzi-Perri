@@ -1,6 +1,5 @@
 # Placental secretome map identifies potential diagnostic and treatment targets for pregnancy complications
 
-Unbiased placental secretome characterization identifies candidates for pregnancy complications
 
 Tina Napso <sup>1</sup>, Xiaohui Zhao<sup>1</sup>, Marta Ibañez Lligoña<sup>1</sup>, Ionel Sandovici <sup>1,2</sup> , Richard G. Kay <sup>3</sup>, Amy L. George<sup>3</sup>, Fiona M. Gribble <sup>3</sup>, Frank Reimann<sup>3</sup>, Claire L. Meek <sup>3</sup>, Russell S. Hamilton<sup>1,4</sup>, Amanda N. Sferruzzi-Perri <sup>1*</sup>. <br>
 
@@ -10,7 +9,9 @@ Tina Napso <sup>1</sup>, Xiaohui Zhao<sup>1</sup>, Marta Ibañez Lligoña<sup>1<
 <sup>4</sup> Department of Genetics,University of Cambridge, Downing Street, Cambridge, CB2 3EH, UK.<br>
 
 <sup>1*</sup> corresponding author: ans48@cam.ac.uk<br>
-
+Commun Biol. 2021; 4: 701.
+Published online 2021 Jun 8. doi: 10.1038/s42003-021-02214-x
+PMCID: PMC8187406; PMID: 34103657
 Code Release to accompany paper: [![DOI](https://zenodo.org/badge/249443099.svg)](https://zenodo.org/badge/latestdoi/249443099)
 
 ## Customised R Code available (R version 3.6.2)
